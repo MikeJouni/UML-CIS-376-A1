@@ -1,31 +1,133 @@
-<diagram program="umletino" version="15.1"><zoom_level>9</zoom_level><element><id>UMLActor</id><coordinates><x>1521</x><y>360</y><w>54</w><h>99</h></coordinates><panel_attributes>Caller</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLActor</id><coordinates><x>1494</x><y>693</y><w>90</w><h>99</h></coordinates><panel_attributes>Adminstrator </panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLActor</id><coordinates><x>1512</x><y>477</y><w>63</w><h>108</h></coordinates><panel_attributes>Mailbox 
-Owner</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>1674</x><y>369</y><w>108</w><h>36</h></coordinates><panel_attributes>Voicemail
-(After 5 rings)</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1539</x><y>369</y><w>162</w><h>45</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;20;160;30</additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>1863</x><y>333</y><w>117</w><h>54</h></coordinates><panel_attributes>Listen to voicemail</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>1638</x><y>495</y><w>108</w><h>36</h></coordinates><panel_attributes>Access Mailbox</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1530</x><y>495</y><w>126</w><h>36</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;20;120;20</additional_attributes></element><element><id>Relation</id><coordinates><x>1737</x><y>477</y><w>126</w><h>54</h></coordinates><panel_attributes>lt=.&gt;
-&lt;&lt;includes&gt;&gt;</panel_attributes><additional_attributes>10;40;120;10</additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>1845</x><y>468</y><w>108</w><h>36</h></coordinates><panel_attributes>Local 
-(Local Phone)</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1764</x><y>288</y><w>99</w><h>108</h></coordinates><panel_attributes>lt=.&gt;
-&lt;&lt;extends&gt;&gt;</panel_attributes><additional_attributes>10;100;40;50;70;10</additional_attributes></element><element><id>Relation</id><coordinates><x>1728</x><y>513</y><w>126</w><h>45</h></coordinates><panel_attributes>lt=.&gt;
-&lt;&lt;includes&gt;&gt;</panel_attributes><additional_attributes>10;10;120;30</additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>1836</x><y>522</y><w>126</w><h>63</h></coordinates><panel_attributes>Web or Email Acces
-(Subscription)</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>1773</x><y>594</y><w>126</w><h>63</h></coordinates><panel_attributes>Remote
-(Phone-Extension)</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1710</x><y>522</y><w>108</w><h>117</h></coordinates><panel_attributes>lt=.&gt;
-&lt;&lt;includes&gt;&gt;</panel_attributes><additional_attributes>10;10;70;110</additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>1827</x><y>270</y><w>117</w><h>54</h></coordinates><panel_attributes>Undo Voicemail</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1773</x><y>351</y><w>108</w><h>54</h></coordinates><panel_attributes>lt=.&gt;
-&lt;&lt;extends&gt;&gt;</panel_attributes><additional_attributes>10;40;100;10</additional_attributes></element><element><id>Relation</id><coordinates><x>1890</x><y>567</y><w>162</w><h>81</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;70;160;10</additional_attributes></element><element><id>Relation</id><coordinates><x>1944</x><y>513</y><w>108</w><h>45</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;30;100;20</additional_attributes></element><element><id>Relation</id><coordinates><x>1944</x><y>477</y><w>126</w><h>63</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;10;120;50</additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>2025</x><y>513</y><w>144</w><h>81</h></coordinates><panel_attributes>Retrieve Voicemails
+<diagram program="umletino" version="15.1"><zoom_level>3</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLActor</id><coordinates><x>498</x><y>258</y><w>18</w><h>33</h></coordinates><panel_attributes>Caller</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLActor</id><coordinates><x>489</x><y>369</y><w>30</w><h>33</h></coordinates><panel_attributes>Adminstrator </panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLActor</id><coordinates><x>495</x><y>297</y><w>21</w><h>36</h></coordinates><panel_attributes>Mailbox 
+Owner</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>549</x><y>261</y><w>36</w><h>12</h></coordinates><panel_attributes>Voicemail
+(After 5 rings)</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>504</x><y>261</y><w>54</w><h>15</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;20;160;30</additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>612</x><y>249</y><w>39</w><h>18</h></coordinates><panel_attributes>Listen to voicemail</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>537</x><y>303</y><w>36</w><h>12</h></coordinates><panel_attributes>Access Mailbox</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>501</x><y>303</y><w>42</w><h>12</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;20;120;20</additional_attributes></element><element><id>Relation</id><coordinates><x>570</x><y>297</y><w>42</w><h>18</h></coordinates><panel_attributes>lt=.&gt;
+&lt;&lt;includes&gt;&gt;</panel_attributes><additional_attributes>10;40;120;10</additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>606</x><y>294</y><w>36</w><h>12</h></coordinates><panel_attributes>Local 
+(Local Phone)</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>579</x><y>234</y><w>36</w><h>36</h></coordinates><panel_attributes>lt=.&gt;
+&lt;&lt;extends&gt;&gt;</panel_attributes><additional_attributes>10;100;70;10</additional_attributes></element><element><id>Relation</id><coordinates><x>567</x><y>309</y><w>42</w><h>15</h></coordinates><panel_attributes>lt=.&gt;
+&lt;&lt;includes&gt;&gt;</panel_attributes><additional_attributes>10;10;120;30</additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>603</x><y>312</y><w>42</w><h>21</h></coordinates><panel_attributes>Web or Email Acces
+(Subscription)</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>582</x><y>336</y><w>42</w><h>21</h></coordinates><panel_attributes>Remote
+(Phone-Extension)</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>561</x><y>312</y><w>36</w><h>39</h></coordinates><panel_attributes>lt=.&gt;
+&lt;&lt;includes&gt;&gt;</panel_attributes><additional_attributes>10;10;70;110</additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>600</x><y>228</y><w>39</w><h>18</h></coordinates><panel_attributes>Undo Voicemail</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>582</x><y>255</y><w>36</w><h>18</h></coordinates><panel_attributes>lt=.&gt;
+&lt;&lt;extends&gt;&gt;</panel_attributes><additional_attributes>10;40;100;10</additional_attributes></element><element><id>Relation</id><coordinates><x>621</x><y>327</y><w>54</w><h>27</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;70;160;10</additional_attributes></element><element><id>Relation</id><coordinates><x>639</x><y>309</y><w>36</w><h>15</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;30;100;20</additional_attributes></element><element><id>Relation</id><coordinates><x>639</x><y>297</y><w>42</w><h>21</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;10;120;50</additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>666</x><y>309</y><w>48</w><h>27</h></coordinates><panel_attributes>Retrieve Voicemails
 --
 Access and listen
  to voicemails
-valign=top</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1764</x><y>387</y><w>135</w><h>54</h></coordinates><panel_attributes>lt=.&gt;
-&lt;&lt;includes&gt;&gt;</panel_attributes><additional_attributes>30;10;10;10;130;40</additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>1872</x><y>405</y><w>144</w><h>45</h></coordinates><panel_attributes>End (HangUp, Timeout)</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>1611</x><y>702</y><w>108</w><h>63</h></coordinates><panel_attributes>Admin Mailbox</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>1782</x><y>684</y><w>144</w><h>54</h></coordinates><panel_attributes>Manage Email System</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1701</x><y>702</y><w>99</w><h>36</h></coordinates><panel_attributes>lt=.&gt;
-&lt;&lt;extends&gt;&gt;</panel_attributes><additional_attributes>10;20;90;15</additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>1989</x><y>657</y><w>144</w><h>54</h></coordinates><panel_attributes>Set user password</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1530</x><y>711</y><w>99</w><h>45</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;10;90;30</additional_attributes></element><element><id>Relation</id><coordinates><x>1890</x><y>711</y><w>126</w><h>54</h></coordinates><panel_attributes>lt=.&gt;
-&lt;&lt;extends&gt;&gt;</panel_attributes><additional_attributes>10;10;120;40</additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>1998</x><y>720</y><w>144</w><h>54</h></coordinates><panel_attributes>Remove mailbox</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1908</x><y>666</y><w>108</w><h>54</h></coordinates><panel_attributes>lt=.&gt;
-&lt;&lt;extends&gt;&gt;</panel_attributes><additional_attributes>10;40;40;20;100;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>0</x><y>0</y><w>189</w><h>171</h></coordinates><panel_attributes>&lt;&lt;Stereotype&gt;&gt;
-Package::FatClass
-{Some Properties}
+valign=top</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>579</x><y>267</y><w>45</w><h>18</h></coordinates><panel_attributes>lt=.&gt;
+&lt;&lt;includes&gt;&gt;</panel_attributes><additional_attributes>30;10;10;10;130;40</additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>615</x><y>273</y><w>48</w><h>15</h></coordinates><panel_attributes>End (HangUp, Timeout)</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>528</x><y>372</y><w>36</w><h>21</h></coordinates><panel_attributes>Admin Mailbox</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>585</x><y>366</y><w>48</w><h>18</h></coordinates><panel_attributes>Manage Email System</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>558</x><y>372</y><w>33</w><h>12</h></coordinates><panel_attributes>lt=.&gt;
+&lt;&lt;extends&gt;&gt;</panel_attributes><additional_attributes>10;20;90;15</additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>654</x><y>357</y><w>48</w><h>18</h></coordinates><panel_attributes>Set user password</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>501</x><y>375</y><w>33</w><h>15</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;10;90;30</additional_attributes></element><element><id>Relation</id><coordinates><x>621</x><y>375</y><w>42</w><h>18</h></coordinates><panel_attributes>lt=.&gt;
+&lt;&lt;extends&gt;&gt;</panel_attributes><additional_attributes>10;10;120;40</additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>657</x><y>378</y><w>48</w><h>18</h></coordinates><panel_attributes>Remove mailbox</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>627</x><y>360</y><w>36</w><h>18</h></coordinates><panel_attributes>lt=.&gt;
+&lt;&lt;extends&gt;&gt;</panel_attributes><additional_attributes>10;40;40;20;100;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>255</x><y>459</y><w>63</w><h>57</h></coordinates><panel_attributes>
+CALLER
+
 --
--id: Long {composite}
-_-ClassAttribute: Long_
+ - callerId: String
+ - phoneNumber: String
 --
-#Operation(i: int): int
-/+AbstractOperation()/
+  + initiateCall(): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>255</x><y>540</y><w>81</w><h>57</h></coordinates><panel_attributes>
+VoicemailMain
+
 --
-Responsibilities
--- Resp1
--- Resp2</panel_attributes><additional_attributes></additional_attributes></element></diagram>
+- Initiate Voicmail : String - (5 rings)
+
+--
+  + startVoicemail(): void
+  + recordMessage(duration: int): Voicemail
+  + undoVoicemail(): void
+  + listenVoicemail(): void
+  + endCall(): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>279</x><y>513</y><w>9</w><h>33</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;90;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>420</x><y>807</y><w>90</w><h>57</h></coordinates><panel_attributes>
+ MailboxOwner
+
+--
+-ownerId: String
+- password: String
+- mailbox: Mailbox
+--
++ accessMailbox(accessType: AccessType): Mailbox
++ changePassword(newPassword: String): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>378</x><y>720</y><w>78</w><h>57</h></coordinates><panel_attributes>
+ Mailbox
+
+--
+-mailboxId: String
+- voicemails: List
+- mailbox: Mailbox
+--
+ + retrieveVoicemails(): List
+ + deleteVoicemail(vmId: String): Boolean
+ + saveVoicemail(vmId: String): Boolean
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>315</x><y>594</y><w>9</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;80;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>378</x><y>633</y><w>81</w><h>66</h></coordinates><panel_attributes>
+Voicemail
+
+--
+- messageId: String
+- content: String
+- timestamp: Date
+- duration: int
+--
+ + play(): void
+--
+Responsibilities (access)
+LOCAL
+REMOTE
+WEB_EMAIL</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>315</x><y>807</y><w>90</w><h>57</h></coordinates><panel_attributes>
+AdminMailbox
+--
+- adminId: String
+- password: String
+
+--
+  + accessAdminMailbox(): void
+  + manageEmailSystem(): void
+  + setUserPassword: String(): Boolean
+  + removeMailbox(mailboxId: String):</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>270</x><y>618</y><w>81</w><h>78</h></coordinates><panel_attributes>
+VoicemailInterface
+
+--
+- phoneSystem: PhoneSystem
+
+--
+ + pickup(): void
+  + hangup(): void
+  + dial(c: char): void
+  + play(message): void
+  + connection(): Boolean
+  + record(duration: int): Voicemail
+  + getRingCount(): int
+  + getDial(): char
+  + getExtension(): String</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>348</x><y>660</y><w>36</w><h>9</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>100;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>447</x><y>774</y><w>9</w><h>39</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;110</additional_attributes></element><element><id>Relation</id><coordinates><x>420</x><y>696</y><w>9</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;80;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>381</x><y>774</y><w>9</w><h>39</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;110</additional_attributes></element><element><id>UMLInterface</id><coordinates><x>273</x><y>414</y><w>24</w><h>27</h></coordinates><panel_attributes>Interface
+--
+Caller</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>282</x><y>435</y><w>9</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;80;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>540</x><y>186</y><w>141</w><h>9</h></coordinates><panel_attributes>Use Case Diagram</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>216</x><y>387</y><w>141</w><h>9</h></coordinates><panel_attributes>Class Diagram</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>813</x><y>507</y><w>141</w><h>9</h></coordinates><panel_attributes>Sequence Diagram</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>726</x><y>585</y><w>96</w><h>12</h></coordinates><panel_attributes>lt=-&gt;&gt;
+Initiate Call</panel_attributes><additional_attributes>10;20;300;20</additional_attributes></element><element><id>Relation</id><coordinates><x>726</x><y>615</y><w>153</w><h>12</h></coordinates><panel_attributes>lt=&lt;-
+Leave message</panel_attributes><additional_attributes>10;20;490;20</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>711</x><y>564</y><w>30</w><h>9</h></coordinates><panel_attributes>CALLER
+bg=orange</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>723</x><y>585</y><w>6</w><h>132</h></coordinates><panel_attributes>
+bg=yellow</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>801</x><y>564</y><w>30</w><h>9</h></coordinates><panel_attributes>VoiceMailMain
+bg=red</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>816</x><y>585</y><w>6</w><h>30</h></coordinates><panel_attributes>
+bg=red</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>816</x><y>624</y><w>6</w><h>99</h></coordinates><panel_attributes>
+bg=red</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>858</x><y>564</y><w>36</w><h>9</h></coordinates><panel_attributes>VoiceMailInterface
+bg=blue</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>936</x><y>567</y><w>30</w><h>9</h></coordinates><panel_attributes>VoiceMail
+bg=pink</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>726</x><y>639</y><w>96</w><h>12</h></coordinates><panel_attributes>lt=-&gt;&gt;
+Record Message</panel_attributes><additional_attributes>10;20;300;20</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>873</x><y>582</y><w>6</w><h>159</h></coordinates><panel_attributes>
+bg=blue</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>819</x><y>648</y><w>60</w><h>12</h></coordinates><panel_attributes>lt=-&gt;&gt;
+Record (duration)</panel_attributes><additional_attributes>10;20;180;20</additional_attributes></element><element><id>Relation</id><coordinates><x>876</x><y>660</y><w>78</w><h>12</h></coordinates><panel_attributes>lt=-&gt;&gt;
+Store(message)</panel_attributes><additional_attributes>10;20;240;20</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>948</x><y>582</y><w>6</w><h>240</h></coordinates><panel_attributes>
+bg=pink</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>819</x><y>588</y><w>60</w><h>12</h></coordinates><panel_attributes>lt=-&gt;&gt;
+Get ring count()</panel_attributes><additional_attributes>10;20;180;20</additional_attributes></element><element><id>Relation</id><coordinates><x>819</x><y>597</y><w>60</w><h>12</h></coordinates><panel_attributes>lt=&lt;-
+(Returns 5 rings)</panel_attributes><additional_attributes>10;20;180;20</additional_attributes></element><element><id>Relation</id><coordinates><x>819</x><y>606</y><w>60</w><h>12</h></coordinates><panel_attributes>lt=-&gt;&gt;
+Pickup</panel_attributes><additional_attributes>10;20;180;20</additional_attributes></element><element><id>UMLFrame</id><coordinates><x>654</x><y>753</y><w>513</w><h>111</h></coordinates><panel_attributes>Manage interaction </panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLFrame</id><coordinates><x>633</x><y>555</y><w>567</w><h>330</h></coordinates><panel_attributes>Voicemail Interface</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>1059</x><y>564</y><w>30</w><h>9</h></coordinates><panel_attributes>MailboxOwner
+bg=white</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>996</x><y>564</y><w>30</w><h>9</h></coordinates><panel_attributes>Mailbox
+bg=black</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>1113</x><y>567</y><w>30</w><h>9</h></coordinates><panel_attributes>adminMailbox</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>1125</x><y>582</y><w>6</w><h>276</h></coordinates><panel_attributes></panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>1071</x><y>582</y><w>6</w><h>225</h></coordinates><panel_attributes>
+bg=white
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>1008</x><y>579</y><w>6</w><h>213</h></coordinates><panel_attributes>
+bg=black</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>951</x><y>669</y><w>63</w><h>12</h></coordinates><panel_attributes>lt=-&gt;&gt;
+saveVoicemail()</panel_attributes><additional_attributes>10;20;190;20</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>684</x><y>657</y><w>138</w><h>18</h></coordinates><panel_attributes>                                        Undo Voicemail</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>684</x><y>681</y><w>138</w><h>18</h></coordinates><panel_attributes>                                        Listen Voicemail</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>726</x><y>687</y><w>96</w><h>12</h></coordinates><panel_attributes>lt=-&gt;&gt;
+listenVoicemail()</panel_attributes><additional_attributes>10;20;300;20</additional_attributes></element><element><id>Relation</id><coordinates><x>726</x><y>663</y><w>96</w><h>12</h></coordinates><panel_attributes>lt=-&gt;&gt;
+UndoVoicemail()</panel_attributes><additional_attributes>10;20;300;20</additional_attributes></element><element><id>Relation</id><coordinates><x>873</x><y>570</y><w>9</w><h>189</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;610</additional_attributes></element><element><id>Relation</id><coordinates><x>726</x><y>711</y><w>96</w><h>12</h></coordinates><panel_attributes>lt=-&gt;&gt;
+endCall()</panel_attributes><additional_attributes>10;20;300;20</additional_attributes></element><element><id>Relation</id><coordinates><x>723</x><y>573</y><w>9</w><h>180</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;580</additional_attributes></element><element><id>Relation</id><coordinates><x>945</x><y>795</y><w>132</w><h>12</h></coordinates><panel_attributes>lt=&lt;-
+listenVoicemail()</panel_attributes><additional_attributes>10;20;420;20</additional_attributes></element><element><id>Relation</id><coordinates><x>1011</x><y>759</y><w>63</w><h>12</h></coordinates><panel_attributes>lt=&lt;-
+accessMailbox</panel_attributes><additional_attributes>10;20;190;20</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>939</x><y>828</y><w>186</w><h>21</h></coordinates><panel_attributes>Undo Voicemail</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>948</x><y>837</y><w>183</w><h>12</h></coordinates><panel_attributes>lt=&lt;-
+removeMailbox(ID)</panel_attributes><additional_attributes>10;20;590;20</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>1008</x><y>804</y><w>6</w><h>18</h></coordinates><panel_attributes>
+bg=black</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>816</x><y>723</y><w>63</w><h>12</h></coordinates><panel_attributes>lt=-&gt;&gt;
+hangup()</panel_attributes><additional_attributes>10;20;190;20</additional_attributes></element><element><id>Relation</id><coordinates><x>816</x><y>570</y><w>9</w><h>180</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;580</additional_attributes></element><element><id>Relation</id><coordinates><x>948</x><y>573</y><w>9</w><h>291</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;950</additional_attributes></element><element><id>Relation</id><coordinates><x>1008</x><y>570</y><w>9</w><h>297</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;970</additional_attributes></element><element><id>Relation</id><coordinates><x>1011</x><y>810</y><w>120</w><h>12</h></coordinates><panel_attributes>lt=&lt;-
+manageMailbox()</panel_attributes><additional_attributes>10;20;380;20</additional_attributes></element><element><id>Relation</id><coordinates><x>1071</x><y>570</y><w>9</w><h>294</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;960</additional_attributes></element><element><id>Relation</id><coordinates><x>1125</x><y>573</y><w>9</w><h>294</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;960</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>837</x><y>231</y><w>174</w><h>129</h></coordinates><panel_attributes>MOHAMMAD AL HADI JOUNI
+CIS 376 SOFTWARE ENGINEERING
+56167610
+ASSIGNMENT 1</panel_attributes><additional_attributes></additional_attributes></element></diagram>
